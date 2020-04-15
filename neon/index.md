@@ -3,9 +3,6 @@ title: neon
 logo: neon-logo.png
 ---
 
-neon
-====
-
 _neon_ is an HTTP and WebDAV client library, with a C interface. Features:
 
 *   High-level wrappers for common HTTP and WebDAV operations (GET, MOVE, DELETE, etc)
