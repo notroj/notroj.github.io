@@ -3,7 +3,7 @@ title: litmus
 logo: shot.png
 ---
 
-_litmus_ is a [WebDAV](/) server test suite, which aims to test whether a server is compliant with the WebDAV protocol as specified in RFC2518; current tests cover:
+_litmus_ is a [WebDAV](https://tools.ietf.org/html/rfc4918) server test suite, which aims to test whether a server is compliant with the WebDAV protocol as specified in RFC2518; current tests cover:
 
 *   OPTIONS for DAV: header
 *   PUT, GET with byte comparison
@@ -24,7 +24,7 @@ _litmus_ is a [WebDAV](/) server test suite, which aims to test whether a server
     *   collection locking
     *   lock refresh
 
-Note that a server which passes all these tests will not necessarily work with any real DAV clients; though the chances are good. _litmus_ is built using the [neon](http://www.webdav.org/neon/) library, so supports digest and basic authentication, TLS/SSL, and proxy servers.
+Note that a server which passes all these tests will not necessarily work with any real DAV clients; though the chances are good. _litmus_ is built using the [neon](https://notroj.github.io/neon/) library, so supports digest and basic authentication, TLS/SSL, and proxy servers.
 
 * * *
 
