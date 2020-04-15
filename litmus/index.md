@@ -1,10 +1,9 @@
 ---
 title: litmus
+logo: shot.png
 ---
 
 _litmus_ is a [WebDAV](/) server test suite, which aims to test whether a server is compliant with the WebDAV protocol as specified in RFC2518; current tests cover:
-
-![litmus in action](shot.png)
 
 *   OPTIONS for DAV: header
 *   PUT, GET with byte comparison
