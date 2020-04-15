@@ -33,12 +33,12 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
 
 **Please note:** The neon API and ABI are stable and maintain backwards compatibility from 0.27.x through 0.31.x.
 
-*   Source code: **[neon-0.31.0.tar.gz](http://www.webdav.org/neon/neon-0.31.0.tar.gz)**
+*   Source code: **[neon-0.31.0.tar.gz](neon-0.31.0.tar.gz)**
 *   [Github repository](https://github.com/notroj/neon)
 
 * * *
 
-#### Changes in release [neon 0.31.0](http://www.webdav.org/neon/neon-0.31.0.tar.gz), 24th March 2020
+#### Changes in release [neon 0.31.0](neon-0.31.0.tar.gz), 24th March 2020
 
 *   Interface changes:
     *   none, API and ABI backwards-compatible with 0.27.x and later
@@ -57,7 +57,7 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
     *   fix build with libxml2 2.9.10 and later
     *   fix handling lock timeouts >LONG\_MAX (Giuseppe Castagno)
 
-#### Changes in release [neon 0.30.2](http://www.webdav.org/neon/neon-0.30.2.tar.gz), 30th September 2016 ([PGP signature](http://www.webdav.org/neon/neon-0.30.2.tar.gz.asc))
+#### Changes in release [neon 0.30.2](neon-0.30.2.tar.gz), 30th September 2016 ([PGP signature](neon-0.30.2.tar.gz.asc))
 
 *   Add support for OpenSSL 1.1.x (Kurt Roeckx).
 *   Fix PKCS#11 support under GnuTLS 3.x.
