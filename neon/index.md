@@ -19,7 +19,7 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 *   [List archive](http://lists.manyfish.co.uk/pipermail/neon/)
 *   [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits)
 *   Debian: [packages](http://packages.debian.org/search?keywords=neon)
-*   Fedora: [package](https://admin.fedoraproject.org/pkgdb/packages/name/neon), [bugs](https://admin.fedoraproject.org/pkgdb/packages/bugs/neon)
+*   Fedora: [package](https://apps.fedoraproject.org/packages/neon), [bugs](https://apps.fedoraproject.org/packages/neon/bugs/)
 *   Gentoo: [package](http://packages.gentoo.org/package/net-misc/neon)
 *   Solaris: [OpenCSW package](http://www.opencsw.org/packages/libneon27/)
 
