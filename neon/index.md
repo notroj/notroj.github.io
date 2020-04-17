@@ -33,10 +33,19 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
 
 **Please note:** The neon API and ABI are stable and maintain backwards compatibility from 0.27.x through 0.31.x.
 
-*   Source code: **[neon-0.31.0.tar.gz](neon-0.31.0.tar.gz)**
+*   Source code: **[neon-0.31.1.tar.gz](neon-0.31.1.tar.gz)**
 *   [Github repository](https://github.com/notroj/neon)
 
 * * *
+
+#### Changes in release [neon 0.31.1](neon-0.31.1.tar.gz), 17th April 2020
+
+* ADMIN: The neon website has moved to [https://notroj.github.io/neon/](https://notroj.github.io/neon/)
+* Restore ne_md5_read_ctx() in OpenSSL build.
+* Fix gcc warnings on Ubuntu (Jan-Marek Glogowski).
+* Fix various spelling mistakes in docs and headers (thanks to FOSSIES).
+* Fix ne_asctime_parse() (Eugenij-W).
+* Fix build with LibreSSL (Juan RP).
 
 #### Changes in release [neon 0.31.0](neon-0.31.0.tar.gz), 24th March 2020
 
