@@ -15,6 +15,7 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 
 * * *
 
+*   [Github repository](https://github.com/notroj/neon)
 *   [Mailing list](http://lists.manyfish.co.uk/mailman/listinfo/neon)  
 *   [List archive](http://lists.manyfish.co.uk/pipermail/neon/)
 *   [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits)
@@ -26,15 +27,6 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 neon is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed under the [GNU Library GPL](http://www.gnu.org/copyleft/lgpl.html).
 
 Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:neon@lists.manyfish.co.uk) the neon [mailing list](http://lists.manyfish.co.uk/mailman/listinfo/neon/) (for which a [web archive](http://lists.manyfish.co.uk/pipermail/neon/) is also available). Alternatively, file pull requests or issues in the [neon github repository](https://github.com/notroj/neon). The [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits) receives commit messages from pushes to Github.
-
-* * *
-
-### Current Release
-
-**Please note:** The neon API and ABI are stable and maintain backwards compatibility from 0.27.x through 0.31.x.
-
-*   Source code: **[neon-0.31.1.tar.gz](neon-0.31.1.tar.gz)**
-*   [Github repository](https://github.com/notroj/neon)
 
 * * *
 
