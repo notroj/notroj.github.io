@@ -30,6 +30,15 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
 
 * * *
 
+#### Changes in release [neon 0.31.2](neon-0.31.2.tar.gz), 20th June 2020
+
+* Fix ne_md5_read_ctx() with OpenSSL on big-endian architectures.
+* Fix GCC 10 warning in PKCS#11 build.
+* Fix OpenSSL build w/o deprecated APIs (Rosen Penev).
+* Fix unnecessary MD5 test for non-Digest auth (Sebastian Reschke).
+* Fix hang on SSL connection close with IIS (issue #11).
+* Fix ar, ranlib detection when cross-compiling (Sergei Trofimovich).
+
 #### Changes in release [neon 0.31.1](neon-0.31.1.tar.gz), 17th April 2020
 
 * ADMIN: The neon website has moved to [https://notroj.github.io/neon/](https://notroj.github.io/neon/)
