@@ -67,12 +67,6 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
     *   fix build with libxml2 2.9.10 and later
     *   fix handling lock timeouts >LONG\_MAX (Giuseppe Castagno)
 
-#### Changes in release [neon 0.30.2](neon-0.30.2.tar.gz), 30th September 2016 ([PGP signature](neon-0.30.2.tar.gz.asc))
-
-*   Add support for OpenSSL 1.1.x (Kurt Roeckx).
-*   Fix PKCS#11 support under GnuTLS 3.x.
-    *   PKCS#11 API no longer supported with GnuTLS 2.x
-
 * * *
 
 [Joe Orton](mailto:joe@manyfish.co.uk)
