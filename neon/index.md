@@ -1,5 +1,6 @@
 ---
 title: neon
+tagline: HTTP/1.1 and WebDAV client library
 logo: neon-logo.png
 ---
 
@@ -29,6 +30,39 @@ neon is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed
 Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:neon@lists.manyfish.co.uk) the neon [mailing list](http://lists.manyfish.co.uk/mailman/listinfo/neon/) (for which a [web archive](http://lists.manyfish.co.uk/pipermail/neon/) is also available). Alternatively, file pull requests or issues in the [neon github repository](https://github.com/notroj/neon). The [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits) receives commit messages from pushes to Github.
 
 * * *
+#### Changes in release 0.32.0 ([neon-0.32.0.tar.gz](neon-0.32.0.tar.gz)), 20th September 2021
+
+* Interface changes:
+  * API and ABI backwards-compatible with 0.27.x and later
+  * NE_AUTH_DIGEST now only enables RFC 2617/7616 auth by default;
+   to enable weaker RFC 2069 Digest, use NE_AUTH_LEGACY_DIGEST
+   (treated as a security enhancement, not an API/ABI break)
+* Interface clarifications:
+  * ne_auth.h: use of non-ASCII usernames with the ne_auth_creds
+   callback type is now rejected for Digest auth since the
+   encoding is not specified.  ne_add_auth() can be used instead.
+  * ne_request.h: the ne_create_request_fn callback is passed the
+   request-target using RFC 7230 terminology
+* New interfaces and features:
+  * ne_string.h: added ne_strhash(), ne_vstrhash(), ne_strparam()
+  * ne_auth.h: added RFC 7616 (Digest authentication) support,
+   including userhash=, username*= and SHA-2 algorithms
+   (SHA-2 requires GnuTLS/OpenSSL).  added NE_AUTH_LEGACY_DIGEST
+  * ne_auth.h: added ne_add_auth() unified auth callback interface,
+   accepts (only) UTF-8 usernames, uses a larger password buffer,
+   and has different/improved attempt counter semantics.
+  * RFC 7617 scoping rules are now applied for Basic authentication.
+  * ne_ssl.h: added ne_ssl_cert_hdigest()
+  * ne_socket.h: added ne_sock_shutdown()
+  * sendmsg()/send() are used with the MSG_NOSIGNAL flag to write to
+   sockets on Unix, rather than write()/writev(), avoiding SIGPIPE
+  * explicit_bzero() is used where available to clear credentials
+* Bug fixes:
+  * fixed TLS connection shutdown handling for OpenSSL 3
+  * fix various Coverity and cppcheck warnings (Sebastian Reschke)
+  * Kerberos library detection uses pkg-config where possible.
+  * fix some configure checks on Win32 (Christopher Degawa)
+  * fix some configure errors on MacOS (Ryan Schmidt)
 
 #### Changes in release [neon 0.31.2](neon-0.31.2.tar.gz), 20th June 2020
 
