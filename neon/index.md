@@ -30,6 +30,12 @@ neon is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed
 Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:neon@lists.manyfish.co.uk) the neon [mailing list](http://lists.manyfish.co.uk/mailman/listinfo/neon/) (for which a [web archive](http://lists.manyfish.co.uk/pipermail/neon/) is also available). Alternatively, file pull requests or issues in the [neon github repository](https://github.com/notroj/neon). The [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits) receives commit messages from pushes to Github.
 
 * * *
+
+#### Changes in release 0.32.1 ([neon-0.32.1.tar.gz](neon-0.32.1.tar.gz)), 20th September 2021
+
+* Fix configure CFLAGS handling in Kerberos detection.
+* Various spelling fixes.
+
 #### Changes in release 0.32.0 ([neon-0.32.0.tar.gz](neon-0.32.0.tar.gz)), 20th September 2021
 
 * Interface changes:
