@@ -31,6 +31,14 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
 
 * * *
 
+#### Changes in release 0.32.2 ([neon-0.32.2.tar.gz](neon-0.32.2.tar.gz)), 12th January 2022
+
+* Fix auth handling for request-target of "*" (regressed since 0.31.x)
+* Fix bindtextdomain() detection on OS X (Daniel Macks)
+* Fix regeneration of docs in "make install" (Lonnie Abelbeck)
+* Fixes for NetBSD build (Thomas Klausner)
+
+
 #### Changes in release 0.32.1 ([neon-0.32.1.tar.gz](neon-0.32.1.tar.gz)), 20th September 2021
 
 * Fix configure CFLAGS handling in Kerberos detection.
