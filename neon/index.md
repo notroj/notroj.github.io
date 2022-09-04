@@ -31,6 +31,14 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
 
 * * *
 
+#### Changes in release 0.32.3 ([neon-0.32.3.tar.gz](neon-0.32.3.tar.gz)), 4th September 2022
+
+* Improvements and fixes to Windows build (Chun-wei Fan)
+* Fix finding pkg-config when cross-compiling (Hugh McMaster)
+* Fix Digest cnonce entropy sources in non-SSL builds
+* Fix cases where Digest usernames were rejected as non-ASCII
+* Fix build failures with OpenSSL 1.1 on some platforms
+
 #### Changes in release 0.32.2 ([neon-0.32.2.tar.gz](neon-0.32.2.tar.gz)), 12th January 2022
 
 * Fix auth handling for request-target of "*" (regressed since 0.31.x)
