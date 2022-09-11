@@ -31,6 +31,13 @@ Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:n
 
 * * *
 
+#### Changes in release 0.32.4 ([neon-0.32.4.tar.gz](neon-0.32.4.tar.gz)), 11th September 2022
+
+* Fix Digest regression in allowing implicit algorithm= (issue #88)
+* Fix Digest to safely allow spaces in usernames (without userhash)
+* ne_ssl_trust_default_ca() now uses the system's trusted CAs
+  with GnuTLS where supported (matching behaviour of OpenSSL)
+
 #### Changes in release 0.32.3 ([neon-0.32.3.tar.gz](neon-0.32.3.tar.gz)), 4th September 2022
 
 * Improvements and fixes to Windows build (Chun-wei Fan)
