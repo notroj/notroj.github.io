@@ -17,4 +17,10 @@ cadaver is free software, distributed under the GNU GPL.
 
 * * *
 
+#### Changes in release cadaver 0.23.3 ([cadaver-0.23.3.tar.gz](cadaver-0.23.3.tar.gz)), 15 December 2009
+
+* Update to neon 0.29.1.
+
+* * *
+
 [Joe Orton](mailto:joe@manyfish.co.uk)

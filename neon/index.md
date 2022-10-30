@@ -17,9 +17,8 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 * * *
 
 *   [Github repository](https://github.com/notroj/neon)
-*   [Mailing list](http://lists.manyfish.co.uk/mailman/listinfo/neon)  
-*   [List archive](http://lists.manyfish.co.uk/pipermail/neon/)
-*   [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits)
+*   [Discussion forum](https://github.com/notroj/neon/discussions)
+*   [Bug reports](https://github.com/notroj/neon/issues)
 *   Debian: [packages](http://packages.debian.org/search?keywords=neon)
 *   Fedora: [package](https://apps.fedoraproject.org/packages/neon), [bugs](https://apps.fedoraproject.org/packages/neon/bugs/)
 *   Gentoo: [package](http://packages.gentoo.org/package/net-misc/neon)
@@ -27,7 +26,7 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 
 neon is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed under the [GNU Library GPL](http://www.gnu.org/copyleft/lgpl.html).
 
-Patches, feature requests, bug reports, questions etc. can be [sent to](mailto:neon@lists.manyfish.co.uk) the neon [mailing list](http://lists.manyfish.co.uk/mailman/listinfo/neon/) (for which a [web archive](http://lists.manyfish.co.uk/pipermail/neon/) is also available). Alternatively, file pull requests or issues in the [neon github repository](https://github.com/notroj/neon). The [neon-commits list](http://lists.manyfish.co.uk/mailman/listinfo/neon-commits) receives commit messages from pushes to Github.
+Feature requests, bug reports etc should be reported via the [Github repository](https://github.com/notroj/neon).
 
 * * *
 
