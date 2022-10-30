@@ -4,7 +4,7 @@ tagline: A command-line WebDAV client
 logo: cadaver-drop.jpeg
 ---
 
-cadaver is a command-line WebDAV client for Unix. It supports file
+_cadaver_ is a command-line WebDAV client for Unix. It supports file
 upload, download, on-screen display, namespace operations (move/copy),
 collection creation and deletion, and locking operations.
 
@@ -18,7 +18,7 @@ cadaver is free software, distributed under the GNU GPL.
 
 * * *
 
-#### Changes in release cadaver 0.23.3 ([cadaver-0.23.3.tar.gz](cadaver-0.23.3.tar.gz)), 15 December 2009
+#### Changes in release 0.23.3 ([cadaver-0.23.3.tar.gz](cadaver-0.23.3.tar.gz)), 15 December 2009
 
 * Update to neon 0.29.1.
 
