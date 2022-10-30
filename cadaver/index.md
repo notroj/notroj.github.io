@@ -1,7 +1,6 @@
 ---
 title: cadaver
 tagline: A command-line WebDAV client
-logo: cadaver-drop.jpeg
 ---
 
 _cadaver_ is a command-line WebDAV client for Unix. It supports file
