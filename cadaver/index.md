@@ -20,7 +20,7 @@ cadaver is free software, distributed under the GNU GPL.
 #### Changes in release 0.24 ([cadaver-0.24.tar.gz](cadaver-0.24.tar.gz)), 30 October 2022
 
 * Modernize configure scripts (Hugh McMaster)
- - fixing cross-compilation support
+ * fixing cross-compilation support
 * Various spelling fixes (Hugh McMaster)
 * Cosmetic fix for "cat" output
 * Bundled neon support is not supported
