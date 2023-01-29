@@ -28,15 +28,21 @@ Note that a server which passes all these tests will not necessarily work with a
 
 * * *
 
-### Current release
+*   [Github repository](https://github.com/notroj/litmus)
+*   [Discussion forum](https://github.com/notroj/litmus/discussions)
+*   [Bug reports](https://github.com/notroj/litmus/issues)
 
-Development release: **0.13**
-
-*   Source code: [litmus-0.13.tar.gz](litmus-0.13.tar.gz)
-
-_litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix systems. Please send any feedback to the [mailing list](http://lists.manyfish.co.uk/mailman/listinfo/litmus/) at [litmus@lists.manyfish.co.uk](mailto:litmus@lists.manyfish.co.uk).
+_litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix systems. 
 
 * * *
+
+#### Changes in release [litmus 0.14](litmus-0.14.tar.gz), 29 January 2022
+
+* Changed tests:
+  * copymove: copy_shallow fixed to check for shallow copy correctly (Javier Godoy)
+  * basic: fix test for PUT giving 409 with no parent collection
+   **NOTE**: this test now fails with Apache httpd < 2.4.55
+* Update to neon 0.32.4.
 
 #### Changes in release [litmus 0.13](litmus-0.13.tar.gz), 9 December 2011 ([PGP signature](litmus-0.13.tar.gz.asc))
 
