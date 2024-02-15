@@ -12,7 +12,7 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 * SSL/TLS support using OpenSSL or GnuTLS; exposing an abstraction layer for verifying server certificates, handling client certificates, and examining certificate properties.
 * Smartcard-based client certificates are also supported via a PKCS#11 wrapper interface
 * Abstract interface to parsing XML using libxml2 or expat, and wrappers for simplifying handling XML HTTP response bodies
-* WebDAV metadata support; wrappers for PROPFIND and PROPPATCH to simplify property manipulation
+* WebDAV support; including locking, property manipulation and retrieval, ACL support
 
 * * *
 
