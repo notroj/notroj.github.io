@@ -36,6 +36,18 @@ _litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix
 
 * * *
 
+#### Changes in release [litmus 0.15](litmus-0.15.tar.gz), 25 February 2024
+
+* New tests:
+  * props: test for DAV:getlastmodified property value
+  * basic: test Location header if returned by PUT
+* Bug fixes:
+  * fix crash on invalid URL command-line (Glenn Strauss)
+  * locks: fixed lockscope check error reporting (Glenn Strauss)
+  * send correct request content-type in all PROPFIND/PROPPATCH tests
+  * various error/warning references updated from RFC 2518 to 4918
+* Updated to neon 0.33.0.
+
 #### Changes in release [litmus 0.14](litmus-0.14.tar.gz), 29 January 2022
 
 * Changed tests:
