@@ -17,6 +17,7 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 * * *
 
 *   [Github repository](https://github.com/notroj/neon)
+*   [Documentation](/neon-docs/)
 *   [Discussion forum](https://github.com/notroj/neon/discussions)
 *   [Bug reports](https://github.com/notroj/neon/issues)
 *   Debian: [packages](http://packages.debian.org/search?keywords=neon)
