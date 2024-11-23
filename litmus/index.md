@@ -39,9 +39,9 @@ _litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix
 #### Changes in release [litmus 0.16](litmus-0.16.tar.gz), 23 November 2024
 
 * New tests:
- * props: test that deleting a property twice succeeds
+  * props: test that deleting a property twice succeeds
 * Bug fixes:
- * basic: fix path used in put_location test (Martin Vobruba)
+  * basic: fix path used in put_location test (Martin Vobruba)
 * Various error/warning references updated from RFC 2518 to 4918
 * Update to neon 0.34.0.
 
