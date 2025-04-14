@@ -31,6 +31,13 @@ Feature requests, bug reports etc should be reported via the [Github repository]
 
 * * *
 
+#### Changes in release 0.34.1 ([neon-0.34.1.tar.gz](neon-0.34.1.tar.gz)), 14th April 2025
+
+* Fix regression in 207 parsing of <status> elements which omit
+  a reason-phrase (issue #188).
+* Fix ne_move() to submit lock tokens for the parent collection
+  of a source resource locked with depth: 0.
+
 #### Changes in release 0.34.0 ([neon-0.34.0.tar.gz](neon-0.34.0.tar.gz)), 23rd November 2024
 
 * Interface changes:
