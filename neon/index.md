@@ -31,6 +31,11 @@ Feature requests, bug reports etc should be reported via the [Github repository]
 
 * * *
 
+#### Changes in release 0.34.2 ([neon-0.34.2.tar.gz](neon-0.34.2.tar.gz)), 15th April 2025
+
+* Fix regression in NTLM auth in 0.34.0 (issue #190).
+* Add docs for ne_ssl_proto_name, ne_ssl_protovers, ne_get_request_target.
+
 #### Changes in release 0.34.1 ([neon-0.34.1.tar.gz](neon-0.34.1.tar.gz)), 14th April 2025
 
 * Fix regression in 207 parsing of <status> elements which omit
