@@ -36,6 +36,14 @@ _litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix
 
 * * *
 
+#### Changes in release [litmus 0.17](litmus-0.17.tar.gz), 30 June 2025
+
+* Default TLS SSL CAs are trusted by default; new --insecure/-i
+  option to ignore verification failures for untrusted TLS certs.
+* New options --colour, --no-colour, --quiet, --system-proxy,
+  --client-cert-uri, --insecure.
+* Update to neon 0.34.2. neon 0.29.x or later now required.
+
 #### Changes in release [litmus 0.16](litmus-0.16.tar.gz), 23 November 2024
 
 * New tests:
