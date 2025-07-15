@@ -21,8 +21,8 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 *   [Discussion forum](https://github.com/notroj/neon/discussions)
 *   [Bug reports](https://github.com/notroj/neon/issues)
 *   Debian: [packages](http://packages.debian.org/search?keywords=neon)
-*   Fedora: [package](https://apps.fedoraproject.org/packages/neon), [bugs](https://apps.fedoraproject.org/packages/neon/bugs/)
-*   Gentoo: [package](http://packages.gentoo.org/package/net-misc/neon)
+*   Fedora: [package](https://src.fedoraproject.org/rpms/libneon27)
+*   Gentoo: [package](http://packages.gentoo.org/package/net-libs/neon)
 *   Solaris: [OpenCSW package](http://www.opencsw.org/packages/libneon27/)
 
 neon is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed under the [GNU Library GPL](http://www.gnu.org/copyleft/lgpl.html).
