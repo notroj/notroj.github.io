@@ -17,6 +17,19 @@ cadaver is free software, distributed under the GNU GPL.
 
 * * *
 
+#### Changes in release 0.27 ([cadaver-0.27.tar.gz](cadaver-0.27.tar.gz)), 16 July 2025
+
+* Opening a location which does not indicate DAV class 1 support
+  is now an error (or a warning in tolerant mode).
+* Removed obsolete BUGS, INTEROP, FAQ documents.
+* Fixed memory leaks in 'cat', 'less' commands.
+* Rewrite of remote tab-completion to work for arbitrary paths.
+* Fixes and improvements for glob (filename expansion) support:
+ - glibc glob() will be used if available in preference to bundled code.
+ - remote wildcards are now expanded across paths (e.g. 'rm */*.html').
+* Add client-cert-uri option for neon 0.35+.
+* Update bundled neon to 0.35.0; neon 0.29.x or later required.
+
 #### Changes in release 0.26 ([cadaver-0.26.tar.gz](cadaver-0.26.tar.gz)), 27 November 2024
 
 * Argument passed to "cadaver" must now be an absolute URI,
