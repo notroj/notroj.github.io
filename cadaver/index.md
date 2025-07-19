@@ -25,8 +25,8 @@ cadaver is free software, distributed under the GNU GPL.
 * Fixed memory leaks in 'cat', 'less' commands.
 * Rewrite of remote tab-completion to work for arbitrary paths.
 * Fixes and improvements for glob (filename expansion) support:
- * glibc glob() will be used if available in preference to bundled code.
- * remote wildcards are now expanded across paths (e.g. 'rm */*.html').
+  * glibc glob() will be used if available in preference to bundled code.
+  * remote wildcards are now expanded across paths (e.g. 'rm */*.html').
 * Add client-cert-uri option for neon 0.35+.
 * Update bundled neon to 0.35.0; neon 0.29.x or later required.
 
