@@ -17,6 +17,13 @@ cadaver is free software, distributed under the GNU GPL.
 
 * * *
 
+#### Changes in release 0.28 ([cadaver-0.28.tar.gz](cadaver-0.28.tar.gz)), 18 September 2025
+
+* Add 'resumeget', 'head' commands.
+* Cosmetic tweak for 'propget' command.
+* Allow using 'edit' on an already-locked resource.
+* 'edit' uses a conditional PUT (where possible) to avoid conflicts.
+
 #### Changes in release 0.27 ([cadaver-0.27.tar.gz](cadaver-0.27.tar.gz)), 16 July 2025
 
 * Opening a location which does not indicate DAV class 1 support
