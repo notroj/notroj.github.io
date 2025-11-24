@@ -16,20 +16,42 @@ Low-level interface to the HTTP request/response engine, allowing the use of arb
 
 * * *
 
-*   [Github repository](https://github.com/notroj/neon)
+*   [GitHub repository](https://github.com/notroj/neon)
 *   [Documentation](/neon-docs/)
 *   [Discussion forum](https://github.com/notroj/neon/discussions)
 *   [Bug reports](https://github.com/notroj/neon/issues)
 *   Debian: [packages](http://packages.debian.org/search?keywords=neon)
 *   Fedora: [package](https://src.fedoraproject.org/rpms/libneon27)
-*   Gentoo: [package](http://packages.gentoo.org/package/net-libs/neon)
-*   Solaris: [OpenCSW package](http://www.opencsw.org/packages/libneon27/)
+*   Gentoo: [package](https://packages.gentoo.org/packages/net-libs/neon)
+*   Solaris: [OpenCSW package](https://www.opencsw.org/packages/libneon27/)
 
 neon is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed under the [GNU Library GPL](http://www.gnu.org/copyleft/lgpl.html).
 
 Feature requests, bug reports etc should be reported via the [Github repository](https://github.com/notroj/neon).
 
 * * *
+
+#### Changes in release 0.36.0 ([neon-0.36.0.tar.gz](neon-0.36.0.tar.gz)), 23rd November 2025
+
+* Interface changes:
+  * API and ABI backwards-compatible with 0.27.x and later
+* New interfaces and features:
+  * ne_xml.h: add ne_xml_set_encoding()
+  * ne_xmlreq.h: add ne_xml_dispatchif_request(); this and
+   ne_xml_dispatch_request() both invoke ne_xml_set_encoding()
+   with the charset= from the Content-Type, if present
+  * ne_request.h: add ne_read_response_to_buffer()
+  * ne_basic.h: add ne_getbuf()
+* Bug fixes:
+  * fix ne_simple_request() failures on non-207 XML responses (#208)
+  * invoke the notifier callback again at the end of a chunked response
+  * fix a failure case where a proxy connection could get reused after
+    SSL proxy tunnel setup failed at the proxy
+  * fix ne_sock_* OpenSSL 3.4 error handling on Windows (#213)
+  * ne_get_content_type() updated for RFC 7303: default charset
+    for text/ media types is removed
+* Various documentation updates.
+
 
 #### Changes in release 0.35.0 ([neon-0.35.0.tar.gz](neon-0.35.0.tar.gz)), 15th July 2025
 
