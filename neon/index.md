@@ -34,11 +34,11 @@ Feature requests, bug reports etc should be reported via the [Github repository]
 
 #### Changes in release 0.37.0 ([neon-0.37.0.tar.gz](https://notroj.github.io/neon/neon-0.37.0.tar.gz)), 1 March 2026
 
-### Interface changes
+##### Interface changes
 
 - API and ABI backwards-compatible with 0.27.x and later
 
-### New interfaces and feaures
+##### New interfaces and feaures
 
 - ne_socket.h: add ne_sock_handshake(); deprecate ne_ssl_connect_ssl();
   add ne_sock_getcert(), ne_iaddr_put()
@@ -54,7 +54,7 @@ Feature requests, bug reports etc should be reported via the [Github repository]
 - ne_utils.h: ne_version_match() description fixed to match code;
   add ne_version_library()
 
-### Bug fixes
+##### Bug fixes
 
 - fix ne_xml_set_encoding() failure case with libxml 2.13+.
 - ne_session_create() passed-in scheme now always lower-cased
