@@ -31,8 +31,7 @@ Feature requests, bug reports etc should be reported via the [Github repository]
 
 * * *
 
-#### Changes in release 0.37.1 ([neon-0.37.1.tar.gz](neon-0.37.1.tar.gz)), 15 March 
-2026
+#### Changes in release 0.37.1 ([neon-0.37.1.tar.gz](neon-0.37.1.tar.gz)), 15 March 2026
 
 ##### Bug fixes
 
