@@ -31,6 +31,14 @@ Feature requests, bug reports etc should be reported via the [Github repository]
 
 * * *
 
+#### Changes in release 0.37.1 ([neon-0.37.1.tar.gz](neon-0.37.1.tar.gz)), 15 March 
+2026
+
+##### Bug fixes
+
+- fix compile warnings with OpenSSL 4.0.0-alpha1
+- fix NTLM test case failures on big-endian systems
+- fix test suite with SSL enabled in VPATH builds
 
 #### Changes in release 0.37.0 ([neon-0.37.0.tar.gz](https://notroj.github.io/neon/neon-0.37.0.tar.gz)), 1 March 2026
 
