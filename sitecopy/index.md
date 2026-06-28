@@ -1,18 +1,17 @@
 # sitecopy
 
-sitecopy is for easily maintaining remote web sites. The program will upload files to the server which have changed locally, and delete files from the server which have been removed locally, to keep the remote site synchronized with the local site with a single command.
-
-If you want to find out whether this program is for you, try: [Should I Use sitecopy?](why.html). Also, find out about [sitecopy and WebDAV](dav.html).
+sitecopy is for easily maintaining remote web sites. The program will
+upload files to the server which have changed locally, and delete
+files from the server which have been removed locally, to keep the
+remote site synchronized with the local site with a single command.
 
 sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distributed under the GNU GPL.
 
-Patches, bug reports, questions etc. can be reported to the sitecopy [mailing list](http://lists.manyfish.co.uk/mailman/listinfo/sitecopy) (for which a [web archive](http://lists.manyfish.co.uk/pipermail/sitecopy/) is also available).
-
 ---
 
-### Current Release
-Version: **0.16.6**.
-
+*  [GitHub repository](https://github.com/notroj/sitecopy)
+*  [Discussion forum](https://github.com/notroj/sitecopy/discussions)
+*  [Bug reports](https://github.com/notroj/sitecopy/issues)
 * **Source code, via HTTP**: [sitecopy-0.16.6.tar.gz](sitecopy-0.16.6.tar.gz)
 * **GitHub repository**: [Link](https://github.com/notroj/sitecopy/)
 
