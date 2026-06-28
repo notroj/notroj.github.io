@@ -45,7 +45,6 @@ _litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix
 
 ##### Other changes
 
-- Bug fixes
 - props: propfind_returns_wellformed() uses Depth: 0 header in
          PROPFIND request, response content-type now verified
 - Update to neon 0.37.1
