@@ -36,6 +36,20 @@ _litmus_ has been tested on Linux, Solaris, FreeBSD, CygWin, and many other Unix
 
 * * *
 
+#### Changes in release 0.18 ([litmus-0.18.tar.gz](litmus-0.18.tar.gz)), 28 June 2026
+
+##### New optional test suites
+
+- lockbomb, lockbomb-single: stress tests for locking
+- protected: security test for protected directories
+
+##### Other changes
+
+- Bug fixes
+- props: propfind_returns_wellformed() uses Depth: 0 header in
+         PROPFIND request, response content-type now verified
+- Update to neon 0.37.1
+
 #### Changes in release [litmus 0.17](litmus-0.17.tar.gz), 30 June 2025
 
 * Default TLS SSL CAs are trusted by default; new --insecure/-i
