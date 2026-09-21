@@ -87,7 +87,6 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
 - Fix error handling (Haolin Xue, Debian #515217, #564462, #742661)
 - Document in the man page (Kartik Mistry, Christian Kujau,
    Debian #320586, #405483, #439594)
-#### Changes in release 0.16.6 ([sitecopy-0.16.6.tar.gz](sitecopy-0.16.6.tar.gz)), 21 September 2026
 
 #### Changes in release [0.16.6](sitecopy-0.16.6.tar.gz) (16 July 2008)
 * DAV: Fix crash with progress bar enabled with neon 0.27/0.28.
