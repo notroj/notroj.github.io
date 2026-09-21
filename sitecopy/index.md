@@ -12,7 +12,7 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
 *  [GitHub repository](https://github.com/notroj/sitecopy)
 *  [Discussion forum](https://github.com/notroj/sitecopy/discussions)
 *  [Bug reports](https://github.com/notroj/sitecopy/issues)
-* **Source code, via HTTP**: [sitecopy-0.17.tar.gz](`sitecopy-0.17.tar.gz`)
+* **Source code, via HTTP**: [`sitecopy-0.17.tar.gz`](sitecopy-0.17.tar.gz)
 * **GitHub repository**: [Link](https://github.com/notroj/sitecopy/)
 
 ---
