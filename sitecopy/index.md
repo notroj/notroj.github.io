@@ -13,7 +13,6 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
 *  [Discussion forum](https://github.com/notroj/sitecopy/discussions)
 *  [Bug reports](https://github.com/notroj/sitecopy/issues)
 * **Source code, via HTTP**: [`sitecopy-0.17.tar.gz`](sitecopy-0.17.tar.gz)
-* **GitHub repository**: [Link](https://github.com/notroj/sitecopy/)
 
 ---
 
@@ -30,12 +29,6 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
 - Interrupted runs now write updated progress state.
 - A lock file is used to prevent concurrent runs (Debian #129330, #41).
 - Write failures now reported rather than being silently ignored (#47).
-
-##### Other changes
-
-- Various compilation warning fixes.
-- Use exit status 0 for --version and --help.
-- Allow URL as site name in rcfile.
 
 ##### Various options improvements and cleanups
 
@@ -62,12 +55,6 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
   "sitecopy --list sitename" or "sitecopy --dry-run --update
   sitename".
 
-##### Other changes
-
-- Enable large file support, so that files of 2GB or more are handled
-- Fix --verify for sites with subdirectories, which reported every
-- --fetch no longer skips directories beyond 1024, and fails if a file
-
 ##### FTP
 
 - Add support for FTP over TLS (RFC 4217) with "ftp secure",
@@ -76,10 +63,6 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
 - Stricter validation of EPSV responses.
 - Improve LIST parsing (Haolin Xue, Debian #496988)
 
-##### Other changes
-
-- DAV: Trust the saved server certificate for "http secure" sites.
-
 ##### SFTP
 
 - Fix hang on connect against OpenSSH 4.2 and later
@@ -87,6 +70,16 @@ sitecopy is [free software](http://www.gnu.org/philosophy/free-sw.html), distrib
 - Fix error handling (Haolin Xue, Debian #515217, #564462, #742661)
 - Document in the man page (Kartik Mistry, Christian Kujau,
    Debian #320586, #405483, #439594)
+
+##### Other changes
+
+- Various compilation warning fixes.
+- Use exit status 0 for --version and --help.
+- Allow URL as site name in rcfile.
+- Enable large file support, so that files of 2GB or more are handled
+- Fix --verify for sites with subdirectories, which reported every
+- --fetch no longer skips directories beyond 1024, and fails if a file
+- DAV: Trust the saved server certificate for "http secure" sites.
 
 #### Changes in release [0.16.6](sitecopy-0.16.6.tar.gz) (16 July 2008)
 * DAV: Fix crash with progress bar enabled with neon 0.27/0.28.
